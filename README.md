@@ -22,7 +22,8 @@ A fast tunnel proxy that helps you bypass firewalls.
 "fast_open":false,
 "workers":1
 }
-
+python shadowsocks/local.py -c ss.json start
+https://dcamero.azurewebsites.net/shadowsocksr.html#linux
 
 Server
 ------
