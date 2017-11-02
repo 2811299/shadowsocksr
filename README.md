@@ -5,6 +5,25 @@ ShadowsocksR
 
 A fast tunnel proxy that helps you bypass firewalls.
 
+{
+"server":"",
+"server_ipv6":"::",
+"server_port":3649,
+"local_address":"127.0.0.1",
+"local_port":1080,
+"password":"",
+"timeout":300,
+"udp_timeout":60,
+"method":"chacha20",
+"protocol":"auth_aes128_md5",
+"protocol_param":"",
+"obfs":"tls1.2_ticket_auth",
+"obfs_param":"",
+"fast_open":false,
+"workers":1
+}
+
+
 Server
 ------
 
